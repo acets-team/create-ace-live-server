@@ -7,7 +7,7 @@
   "homepage": "https://github.com/acets-team/create-ace-live-server#readme",
   "description": "❤️ Helpful when you'd love to show live data on a page w/o requiring a page refresh!",
   "bin": {
-    "create-ace-live-server": "./cli.js"
+    "create-ace-live-server": "cli.js"
   },
   "bugs": {
     "url": "https://github.com/acets-team/create-ace-live-server/issues"
