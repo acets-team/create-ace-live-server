@@ -5,6 +5,14 @@
 
 
 
+## [0.0.5] - 2025-11-07
+
+### 🐛 Fixed
+- Fixed: `npm error 403 403 Forbidden - PUT https://registry.npmjs.org/create-ace-live-server - You cannot publish over the previously published versions`
+    - Renamed `npm run publish` to `npm run pub`
+
+
+
 ## [0.0.4] - 2025-11-07
 
 ### 🐛 Fixed
@@ -42,6 +50,7 @@
 
 
 
+[0.0.5]: https://github.com/acets-team/create-ace-live-server/compare/v0.0.4...v0.0.5
 [0.0.4]: https://github.com/acets-team/create-ace-live-server/compare/v0.0.3...v0.0.4
 [0.0.3]: https://github.com/acets-team/create-ace-live-server/compare/v0.0.2...v0.0.3
 [0.0.2]: https://github.com/acets-team/create-ace-live-server/compare/v0.0.1...v0.0.2
