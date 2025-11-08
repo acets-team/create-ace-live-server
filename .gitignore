@@ -1,0 +1,7 @@
+.env
+dist
+node_modules
+.ace
+.wrangler
+cli.js
+worker-configuration.d.ts

@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es2021",
+    "lib": [
+      "es2021"
+    ],
+    "jsx": "react-jsx",
+    "module": "es2022",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "checkJs": false,
+    "noEmit": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "types": [
+      "node",
+      "./worker-configuration.d.ts"
+    ],
+    "paths": {
+      "@src/*": [
+        "./src/*"
+      ],
+      "ace.config": [
+        "ace.config.js"
+      ],
+      "@ace/*": [
+        "./.ace/fundamentals/*"
+      ],
+    }
+  },
+  "include": [
+    "src/**/*",
+    ".ace/**/*"
+  ]
+}

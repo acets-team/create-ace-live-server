@@ -1,0 +1,44 @@
+{
+  "name": "create-ace-live-server",
+  "license": "MIT",
+  "type": "module",
+  "version": "0.0.1",
+  "author": "https://github.com/acets-team",
+  "homepage": "https://github.com/acets-team/create-ace-live-server#readme",
+  "description": "❤️ Helpful when you'd love to show live data on a page w/o requiring a page refresh!",
+  "bin": {
+    "create-ace-live-server": "./cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/acets-team/create-ace-live-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acets-team/create-ace-live-server.git"
+  },
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "ace build local && wrangler dev",
+    "dev-fresh": "rm -rf .ace && npm run dev",
+    "cf-typegen": "wrangler types",
+    "typesafe": "tsc --project tsconfig.typesafe.json",
+    "build-cli": "ace build local && tsc -p cli.tsconfig.json && (chmod +x cli.js || true)",
+    "prepublishOnly": "npm run build && npm run build-cli",
+    "build": "ace build prod && wrangler build",
+    "publish": "npm publish --access public"
+  },
+  "keywords": [
+    "solid",
+    "solidjs",
+    "ace",
+    "acets",
+    "acets-team",
+    "wizard"
+  ],
+  "devDependencies": {
+    "@acets-team/ace": "^0.7.3",
+    "@types/node": "^24.10.0",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.46.0"
+  }
+}
