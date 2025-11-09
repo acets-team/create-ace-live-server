@@ -36,7 +36,7 @@
     "wizard"
   ],
   "devDependencies": {
-    "@acets-team/ace": "^0.7.3",
+    "@acets-team/ace": "^0.8.1",
     "@types/node": "^24.10.0",
     "typescript": "^5.9.3",
     "wrangler": "^4.46.0"

@@ -44,6 +44,7 @@ class Build {
         node: '>=22'
       },
       scripts: {
+        bump: 'ace build local',
         'cf-typegen': 'wrangler types',
         dev: 'ace build local && wrangler dev',
         "dev-fresh": 'rm -rf .ace && npm run dev',
@@ -51,7 +52,7 @@ class Build {
         typesafe: 'tsc --project tsconfig.typesafe.json',
       },
       devDependencies: {
-        '@acets-team/ace': '^0.7.3',
+        '@acets-team/ace': '^0.8.1',
         "@types/node": "^24.10.0",
         typescript: "^5.9.3",
         wrangler: "^4.46.0"
@@ -161,7 +162,10 @@ ${cuteString('💖 Thanks for creating w/ Ace! ✨ Docs: https://github.com/acet
   #renderGitIgnore() {
     return `.env
 dist
-node_modules\n`
+node_modules
+.wrangler
+worker-configuration.d.ts
+`
   }
 
 
@@ -193,7 +197,8 @@ node_modules\n`
 			}
 		]
 	}
-}`
+}
+`
   }
 }
 
