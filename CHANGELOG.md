@@ -5,6 +5,14 @@
 
 
 
+## [0.0.6] - 2025-11-08
+
+### 🧠 Improved
+- Updated the version of:
+    - @acets-team/ace to `0.8.1`
+
+
+
 ## [0.0.5] - 2025-11-07
 
 ### 🐛 Fixed
