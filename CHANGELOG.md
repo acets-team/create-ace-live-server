@@ -9,7 +9,16 @@
 
 ### 🧠 Improved
 - Updated the version of:
+    - @acets-team/ace to `0.9.4`
+
+
+
+## [0.1.1] - 2025-11-11
+
+### 🧠 Improved
+- Updated the version of:
     - @acets-team/ace to `0.9.3`
+
 
 
 ## [0.1.0] - 2025-11-11
