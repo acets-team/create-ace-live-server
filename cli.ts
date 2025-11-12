@@ -52,7 +52,7 @@ class Build {
         typesafe: 'tsc --project tsconfig.typesafe.json',
       },
       devDependencies: {
-        '@acets-team/ace': '^0.9.4',
+        '@acets-team/ace': '^0.9.5',
         "@types/node": "^24.10.0",
         typescript: "^5.9.3",
         wrangler: "^4.46.0"
